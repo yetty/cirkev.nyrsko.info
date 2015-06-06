@@ -14,7 +14,7 @@
             scrollTop: ($($anchor.attr('href')).offset().top - 50)
         }, 1250, 'easeInOutExpo');
 
-        window.location = $anchor.context.hash;
+        //window.location = $anchor.context.hash;
         event.preventDefault();
     });
 
